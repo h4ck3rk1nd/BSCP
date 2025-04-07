@@ -33,7 +33,7 @@
 #### After dropping this 2-step verification code generation request, we will change the endpoint in the URL to _my-account_
 ![image](https://github.com/user-attachments/assets/219eacc9-79d2-44ec-9e98-22f175b13c29)
 
-#### Once the endpoint is hit, we should be able to bypass the 2FA for the user carlos and gain access to his login page as:
+#### Once the endpoint is hit, we should be able to bypass the 2FA for the user carlos and gain access to his account page as:
 ![image](https://github.com/user-attachments/assets/a91f96af-8b17-439e-8d99-0c6ba2b807aa)
 
 #### Thus, the user _carlos_ is hacked with kindness !!!
