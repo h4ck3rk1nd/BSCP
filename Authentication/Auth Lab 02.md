@@ -21,10 +21,13 @@
 
 #### Once we login successfully we have full access to the user _wiener's_ account, we can see that we have hit the _my-account_ endpoint, meaning this endpoint is accessed after the 2-step verification is performed.
 ![image](https://github.com/user-attachments/assets/8efe5018-59fb-4284-8139-bc1d637920f4)
+![image](https://github.com/user-attachments/assets/d122a14f-097e-4d7b-8354-391a6421e4aa)
+
+
 
 #### There are two methods now, to bypass this 2-step verification 2FA and gain access to _carlos's_ account.
 #### The first method is that since we know that the length of the verification code is 4, we can try to brute force the verification code and gain access to the _carlos's_ account, or we can try to check if the server is enforcing the validation of the endpoint _my-account_.
-#### Let's go ahead and logout from the user _wiener_ and try to login via the user _carlos_ and drop the request for the 2-step verification request, that the application makes to sever and change the URL manually to the endpoint of _my-account_ as was for the user _wiener_ earlier, meaning we are skipping the 2-step verification code generation as:
+#### Let's go ahead and logout from the user _wiener_ and try to login via the user _carlos_ and drop the 2-step verification request that the application makes to sever and change the URL manually to the endpoint of _my-account_ as was for the user _wiener_ earlier, meaning we are skipping the 2-step verification code generation as:
 ![image](https://github.com/user-attachments/assets/b95bf97e-280c-4abd-b848-b64c660503a8)
 
 #### After dropping this 2-step verification code generation request, we will change the endpoint in the URL to _my-account_
